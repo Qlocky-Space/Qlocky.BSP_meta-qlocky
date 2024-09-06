@@ -1,0 +1,13 @@
+/*
+ * Copyright 2024 Qlocky
+ */
+
+/dts-v1/;
+
+#include <dt-bindings/usb/pd.h>
+#include "imx8mm-qlocky.dtsi"
+
+/ {
+	model = "i.MX8MM Qlocky board";
+	compatible = "qlocky,imx8mm-qlocky", "fsl,imx8mm";
+};
