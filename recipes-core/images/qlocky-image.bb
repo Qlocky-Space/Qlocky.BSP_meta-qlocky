@@ -2,6 +2,7 @@ SUMMARY = "Qlocky production image"
 
 inherit core-image
 
+# https://docs.yoctoproject.org/ref-manual/features.html#image-features
 IMAGE_FEATURES += " \
     debug-tweaks \
     tools-profile \
