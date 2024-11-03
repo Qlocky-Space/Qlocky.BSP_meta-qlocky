@@ -1,0 +1,12 @@
+diff --git a/arch/arm64/boot/dts/freescale/Makefile b/arch/arm64/boot/dts/freescale/Makefile
+index afc9f83f11df..7e6754289b92 100644
+--- a/arch/arm64/boot/dts/freescale/Makefile
++++ b/arch/arm64/boot/dts/freescale/Makefile
+@@ -95,6 +95,7 @@ dtb-$(CONFIG_ARCH_MXC) += imx8mm-emtop-baseboard.dtb
+ dtb-$(CONFIG_ARCH_MXC) += imx8mm-icore-mx8mm-ctouch2.dtb
+ dtb-$(CONFIG_ARCH_MXC) += imx8mm-icore-mx8mm-edimm2.2.dtb
+ dtb-$(CONFIG_ARCH_MXC) += imx8mm-nitrogen-r2.dtb
++dtb-$(CONFIG_ARCH_MXC) += imx8mm-qlocky.dtb
+ 
+ dtb-$(CONFIG_ARCH_MXC) += imx8mn-bsh-smm-s2.dtb
+ dtb-$(CONFIG_ARCH_MXC) += imx8mn-bsh-smm-s2pro.dtb
